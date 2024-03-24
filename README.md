@@ -1,8 +1,8 @@
-# Runing Airflow in Docker
+# Running Airflow in Docker
 
 # Setting up Docker
 
-The default of memory available for Docker on macOS is often not engough to get Airflow up and running. If enough memory is not allocated, it might lead to the webserver continuously restarting. You should allocate at least 4GB memory for the Docker Engine (ideally 8GB).
+The default of memory available for Docker on macOS is often not enough to get Airflow up and running. If enough memory is not allocated, it might lead to the webserver continuously restarting. You should allocate at least 4GB memory for the Docker Engine (ideally 8GB).
 
 Recommended settings for Docker Desktop on macOS:
 
