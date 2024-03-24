@@ -43,7 +43,11 @@ After initialization is complete, you should see a message like this:
 airflow-init-1 exited with code 0
 ```
 
-The account created has the login `airflow` and the password `airflow`.
+# Accessing the web interface
+
+Once the cluster has started up, you can log in to the web interface and begin experimenting with DAGs.
+
+The webserver is available at: http://localhost:8080. The default account has the login `airflow` and the password `airflow`.
 
 # Running Airflow
 
